@@ -1,9 +1,7 @@
 package com.example.revision.Controller;
 
 import com.example.revision.Entity.Contrat;
-import com.example.revision.Entity.Etudiant;
-import com.example.revision.Service.Contart.IServiceContart;
-import com.example.revision.Service.Etudiant.IServiceEtudiant;
+import com.example.revision.Service.Contart.IServiceContrat;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +11,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RequestMapping("/contrat")
 public class ControllerContrat {
-    private final IServiceContart iServiceContart;
+    private final IServiceContrat iServiceContart;
     @GetMapping()
     List<Contrat> retrieveAllContrats(){ return iServiceContart.retrieveAllContrats();}
 

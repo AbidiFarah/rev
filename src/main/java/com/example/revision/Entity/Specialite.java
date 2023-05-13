@@ -1,2 +1,9 @@
-package com.example.revision.Entity;public enum Specialite {
+package com.example.revision.Entity;
+
+public enum Specialite {
+
+    IA,
+    RESEAUX,
+    CLOUD,
+    SECURITE,
 }

@@ -1,7 +1,6 @@
 package com.example.revision.Service.Contart;
 
 import com.example.revision.Entity.Contrat;
-import com.example.revision.Entity.Etudiant;
 import com.example.revision.Repository.RepositoryContrat;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -9,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 @Service
 @RequiredArgsConstructor
-public class ServiceContart implements IServiceContart{
+public class ServiceContrat implements IServiceContrat {
     private final RepositoryContrat repositoryContrat;
     @Override
     public List<Contrat> retrieveAllContrats() {

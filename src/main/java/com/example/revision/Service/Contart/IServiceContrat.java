@@ -4,7 +4,7 @@ import com.example.revision.Entity.Contrat;
 
 import java.util.List;
 
-public interface IServiceContart {
+public interface IServiceContrat {
 
     List<Contrat> retrieveAllContrats();
 
